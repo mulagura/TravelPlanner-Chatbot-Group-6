@@ -1,0 +1,12 @@
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\bin\Debug\net6.0\OrderBot.deps.json
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\bin\Debug\net6.0\OrderBot.dll
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\bin\Debug\net6.0\OrderBot.pdb
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\OrderBot.csproj.AssemblyReference.cache
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\OrderBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\OrderBot.AssemblyInfoInputs.cache
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\OrderBot.AssemblyInfo.cs
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\OrderBot.csproj.CoreCompileInputs.cache
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\OrderBot.dll
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\refint\OrderBot.dll
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\OrderBot.pdb
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot\obj\Debug\net6.0\ref\OrderBot.dll

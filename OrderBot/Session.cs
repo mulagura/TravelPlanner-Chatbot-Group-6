@@ -25,7 +25,7 @@ namespace OrderBot
             {
                 case State.WELCOMING:
                     aMessages.Add("Welcome to Travel Planner Chatbot");
-                    aMessages.Add("What size would you like?");
+                    aMessages.Add("Which location would you like to go (Kitchener-Waterloo)?");
                     this.nCur = State.SIZE;
                     break;
                 case State.SIZE:
