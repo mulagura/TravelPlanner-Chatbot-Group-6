@@ -16,10 +16,12 @@ if (!app.Environment.IsDevelopment())
 //app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+// Use for routing 
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapRazorPages();
 
+// To run the app
 app.Run();
