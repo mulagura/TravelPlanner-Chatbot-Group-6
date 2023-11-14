@@ -6,7 +6,9 @@ namespace OrderBot
     {
         private enum State
         {
+            
             WELCOMING, SIZE, PROTEIN
+                
         }
 
         private State nCur = State.WELCOMING;
