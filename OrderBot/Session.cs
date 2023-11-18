@@ -35,7 +35,7 @@ namespace OrderBot
                     this.nCur = State.FROM_LOCATION;
                     break;
                 case State.FROM_LOCATION:
-                    aMessages.Add("From where your going to start the travel?");
+                    aMessages.Add("From where you are going to start the travel?");
                     this.nCur = State.TRAVEL_DATE;
                     break;
                 case State.TRAVEL_DATE:
@@ -48,22 +48,22 @@ namespace OrderBot
                     this.nCur = State.AVAILIBILITY;
                     break;
                 case State.AVAILIBILITY:
-                    aMessages.Add("For Plaza Get together Passes are available, How many adults and kids you want to book? (A:2,K:3)");
+                    aMessages.Add("For Plaza Get together Passes are available. How many adults and kids you want to book? (A:2,K:3)");
                     this.nCur = State.ACCOMODATION;
                     break;
                 case State.ACCOMODATION:
-                    aMessages.Add("Are you need a Accomodation? (Y/N)");
+                    aMessages.Add("Do you need a Accomodation? (Y/N)");
                     this.nCur = State.FINAL_MESSAGE;
                     break;
                 case State.FINAL_MESSAGE:
-                    aMessages.Add("Thanks your for your time, Here are some details for you.");
-                    aMessages.Add("For Plaza Get together event Adult pass is 200$ and kids pass is 50$, you have to pay 550$ on the event gate.");
-                    aMessages.Add("If you what to confirm the bookig please enter your e-mail address.");
-                    aMessages.Add("We'll sent you the booking conformation mail.");
+                    aMessages.Add("Thanks for your time, Here are some details for you.");
+                    aMessages.Add("For Plaza Get together event, Adult pass is 200$ and kids pass is 50$, you have to pay 550$ at the event gate.");
+                    aMessages.Add("If you want to confirm the bookig, please enter your e-mail address.");
+                    aMessages.Add("Thank You !! We'll send the booking conformation mail.");
                     this.nCur = State.EMAIL;
                     break;
                 case State.EMAIL:
-                    aMessages.Add("Booking Confirm.");
+                    aMessages.Add("Booking Confirmed.");
                     //this.nCur = State.FINAL_MESSAGE;
                     break;
 
