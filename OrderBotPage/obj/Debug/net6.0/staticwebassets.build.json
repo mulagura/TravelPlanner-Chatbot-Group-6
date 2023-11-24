@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7uEXfnPbyV0WtsVhx1wZNeYcN9FMliLmTMqMqgQN93o=",
+  "Hash": "zESoyFUqNvYtJna7b5JJEf5L1rb/p+Co16wMVu7ykl0=",
   "Source": "OrderBotPage",
   "BasePath": "_content/OrderBotPage",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "OrderBotPage\\wwwroot",
+      "Name": "OrderBotPage/wwwroot",
       "Source": "OrderBotPage",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\bootstrap.min.css",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/bootstrap.min.css",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "bootstrap.min.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\favicon.ico",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/favicon.ico",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\font-awesome.min.css",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/font-awesome.min.css",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "font-awesome.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\font-awesome.min.css"
+      "OriginalItemSpec": "wwwroot/font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/fonts/fontawesome-webfont.ttf",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
+      "OriginalItemSpec": "wwwroot/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/fonts/fontawesome-webfont.woff",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
+      "OriginalItemSpec": "wwwroot/fonts/fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/fonts/fontawesome-webfont.woff2",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
+      "OriginalItemSpec": "wwwroot/fonts/fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\jquery-3.3.1.min.js",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/jquery-3.3.1.min.js",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "jquery-3.3.1.min.js",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\jquery-3.3.1.min.js"
+      "OriginalItemSpec": "wwwroot/jquery-3.3.1.min.js"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\main.css",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/main.css",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "main.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.css"
+      "OriginalItemSpec": "wwwroot/main.css"
     },
     {
-      "Identity": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\main.js",
+      "Identity": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/main.js",
       "SourceId": "OrderBotPage",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\wwwroot\\",
+      "ContentRoot": "/Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBotPage/wwwroot/",
       "BasePath": "_content/OrderBotPage",
       "RelativePath": "main.js",
       "AssetKind": "All",
@@ -167,7 +167,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.js"
+      "OriginalItemSpec": "wwwroot/main.js"
     }
   ]
 }
