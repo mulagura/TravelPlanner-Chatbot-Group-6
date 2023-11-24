@@ -14,7 +14,7 @@ namespace OrderBot
         private State nCur = State.WELCOMING;
         private Order oOrder;
 
-        public Session()
+        public Session(string ssFrom)
         {
             this.oOrder = new Order();
             //this.oOrder.Phone = sPhone;

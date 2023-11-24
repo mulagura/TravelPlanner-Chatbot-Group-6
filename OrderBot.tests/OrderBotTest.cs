@@ -30,7 +30,7 @@ namespace OrderBot.tests
         [Fact]
         public void TestWelcome()
         {
-            Session oSession = new Session();
+            Session oSession = new Session("123");
             String sInput = oSession.OnMessage("hello")[0];
             Console.WriteLine(sInput);
             Assert.Contains("Welcome", sInput);
@@ -40,7 +40,7 @@ namespace OrderBot.tests
         public void TestWelcomPerformance()
         {
             DateTime oStart = DateTime.Now;
-            Session oSession = new Session();
+            Session oSession = new Session("123");
             String sInput = oSession.OnMessage("Kitchener")[0];
             Console.WriteLine(sInput);
             //Assert.Contains("travel", sInput.ToLower());
@@ -52,7 +52,7 @@ namespace OrderBot.tests
         [Fact]
         public void TestFromDate()
         {
-            Session oSession = new Session();
+            Session oSession = new Session("123");
             oSession.OnMessage("hello");
             oSession.OnMessage("Kitchener");
             oSession.OnMessage("Waterloo");
@@ -62,10 +62,10 @@ namespace OrderBot.tests
             Assert.Contains("02/12/2023", sInput);
         }
         [Fact]
-        public void TestTravelDate()
+        public void TestTravelBooking()
         {
 
-            Session oSession = new Session();
+            Session oSession = new Session("123");
             oSession.OnMessage("hello");
             oSession.OnMessage("Kitchener");
             oSession.OnMessage("Waterloo");
@@ -83,7 +83,7 @@ namespace OrderBot.tests
         public void TestPerfomanceOfWholeProcess()
         {
             DateTime oStart = DateTime.Now;
-            Session oSession = new Session();
+            Session oSession = new Session("123");
             oSession.OnMessage("hello");
             oSession.OnMessage("Kitchener");
             oSession.OnMessage("Waterloo");

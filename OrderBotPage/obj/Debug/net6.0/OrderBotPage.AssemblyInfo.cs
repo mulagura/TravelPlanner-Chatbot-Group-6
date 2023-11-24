@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderBotPage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23ee8bf218e6be0c8b1d6d2b5252734b73f63e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderBotPage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderBotPage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
