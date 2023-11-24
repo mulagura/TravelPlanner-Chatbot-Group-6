@@ -6,7 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-  <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.7" />
+  <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
+  <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.0" />
+  <PackageReference Include="XunitOrderer" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

@@ -8,6 +8,9 @@ namespace OrderBot.tests
 {
     public class OrderBotTest
     {
+
+        
+
         public OrderBotTest()
         {
             using (var connection = new SqliteConnection(DB.GetConnectionString()))
@@ -23,63 +26,80 @@ namespace OrderBot.tests
 
             }
         }
-        [Fact]
-        public void Test1()
-        {
 
-        }
         [Fact]
         public void TestWelcome()
         {
-            Session oSession = new Session("12345");
+            Session oSession = new Session();
             String sInput = oSession.OnMessage("hello")[0];
-            Assert.True(sInput.Contains("Welcome"));
+            Console.WriteLine(sInput);
+            Assert.Contains("Welcome", sInput);
+            //Assert.True(sInput.Equals("Welcome"));
         }
         [Fact]
         public void TestWelcomPerformance()
         {
             DateTime oStart = DateTime.Now;
-            Session oSession = new Session("12345");
-            String sInput = oSession.OnMessage("hello")[0];
+            Session oSession = new Session();
+            String sInput = oSession.OnMessage("Kitchener")[0];
+            Console.WriteLine(sInput);
+            //Assert.Contains("travel", sInput.ToLower());
             DateTime oFinished = DateTime.Now;
             long nElapsed = (oFinished - oStart).Ticks;
             System.Diagnostics.Debug.WriteLine("Elapsed Time: " + nElapsed);
             Assert.True(nElapsed < 10000);
         }
         [Fact]
-        public void TestShawarama()
+        public void TestFromDate()
         {
-            Session oSession = new Session("12345");
-            String sInput = oSession.OnMessage("hello")[0];
-            Assert.True(sInput.ToLower().Contains("shawarama"));
-        }
-        [Fact]
-        public void TestSize()
-        {
-            Session oSession = new Session("12345");
-            String sInput = oSession.OnMessage("hello")[1];
-            Assert.True(sInput.ToLower().Contains("size"));
-        }
-        [Fact]
-        public void TestLarge()
-        {
-            Session oSession = new Session("12345");
+            Session oSession = new Session();
             oSession.OnMessage("hello");
-            String sInput = oSession.OnMessage("large")[0];
-            Assert.True(sInput.ToLower().Contains("protein"));
-            Assert.True(sInput.ToLower().Contains("large"));
+            oSession.OnMessage("Kitchener");
+            oSession.OnMessage("Waterloo");
+            String sInput = oSession.OnMessage("02/12/2023")[0];
+            Console.WriteLine(sInput);
+           
+            Assert.Contains("02/12/2023", sInput);
         }
         [Fact]
-        public void TestChicken()
+        public void TestTravelDate()
         {
-            string sPath = DB.GetConnectionString();
-            Session oSession = new Session("12345");
+
+            Session oSession = new Session();
             oSession.OnMessage("hello");
-            oSession.OnMessage("large");
-            String sInput = oSession.OnMessage("chicken")[0];
-            Assert.True(sInput.ToLower().Contains("toppings"));
-            Assert.True(sInput.ToLower().Contains("large"));
-            Assert.True(sInput.ToLower().Contains("chicken"));
+            oSession.OnMessage("Kitchener");
+            oSession.OnMessage("Waterloo");
+            oSession.OnMessage("1");
+            oSession.OnMessage("A:2,K:3");
+            oSession.OnMessage("Y");
+            oSession.OnMessage("joes@gamil.com");
+            String sInput = oSession.OnMessage("Thanks")[0];
+            Console.WriteLine(sInput);
+
+            Assert.Contains("Booking Confirm", sInput);
         }
+
+        [Fact]
+        public void TestPerfomanceOfWholeProcess()
+        {
+            DateTime oStart = DateTime.Now;
+            Session oSession = new Session();
+            oSession.OnMessage("hello");
+            oSession.OnMessage("Kitchener");
+            oSession.OnMessage("Waterloo");
+            oSession.OnMessage("1");
+            oSession.OnMessage("A:2,K:3");
+            oSession.OnMessage("Y");
+            oSession.OnMessage("joes@gamil.com");
+            String sInput = oSession.OnMessage("Thanks")[0];
+            Console.WriteLine(sInput);
+
+            //Assert.Contains("Booking Confirm", sInput);
+            DateTime oFinished = DateTime.Now;
+            long nElapsed = (oFinished - oStart).Ticks;
+            System.Diagnostics.Debug.WriteLine("Elapsed Time: " + nElapsed);
+            Assert.True(nElapsed < 10000);
+        }
+
     }
 }
