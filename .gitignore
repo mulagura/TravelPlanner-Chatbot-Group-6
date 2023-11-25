@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignore Visual Studio Code directories
+.vs/
+
+# Ignore test and build artifacts
+OrderBot.tests/bin/
+OrderBot.tests/obj/
+OrderBot/obj/
+OrderBotPage/obj/
+
 # User-specific files
 *.rsuser
 *.suo
