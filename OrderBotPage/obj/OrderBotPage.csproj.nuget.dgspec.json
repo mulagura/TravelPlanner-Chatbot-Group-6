@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj": {}
+    "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj": {}
   },
   "projects": {
-    "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj": {
+    "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj",
+        "projectUniqueName": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj",
         "projectName": "OrderBotPage",
-        "projectPath": "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\obj\\",
+        "projectPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj": {
-                "projectPath": "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj"
+              "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj": {
+                "projectPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj"
               }
             }
           }
@@ -73,24 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj": {
+    "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj",
+        "projectUniqueName": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj",
         "projectName": "OrderBot",
-        "projectPath": "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\D FOLDER\\SQATE\\SEM2\\Kumar\\projects\\TravelPlanner-Chatbot-Group-6\\OrderBot\\obj\\",
+        "projectPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -147,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

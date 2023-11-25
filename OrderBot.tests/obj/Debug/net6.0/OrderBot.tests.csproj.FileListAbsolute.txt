@@ -124,7 +124,6 @@
 /Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBot.tests/obj/Debug/net6.0/OrderBot.tests.genruntimeconfig.cache
 /Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBot.tests/obj/Debug/net6.0/ref/OrderBot.tests.dll
 /Users/charlesraj/Files/Visual Studio/TravelPlanner-Chatbot-Group-6/OrderBot.tests/bin/Debug/net6.0/XunitOrderer.dll
-C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot.tests\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot.tests\bin\Debug\net6.0\testhost.dll
 C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot.tests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot.tests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
@@ -379,3 +378,4 @@ E:\D FOLDER\SQATE\SEM2\Kumar\projects\TravelPlanner-Chatbot-Group-6\OrderBot.tes
 E:\D FOLDER\SQATE\SEM2\Kumar\projects\TravelPlanner-Chatbot-Group-6\OrderBot.tests\obj\Debug\net6.0\OrderBot.tests.pdb
 E:\D FOLDER\SQATE\SEM2\Kumar\projects\TravelPlanner-Chatbot-Group-6\OrderBot.tests\obj\Debug\net6.0\OrderBot.tests.genruntimeconfig.cache
 E:\D FOLDER\SQATE\SEM2\Kumar\projects\TravelPlanner-Chatbot-Group-6\OrderBot.tests\obj\Debug\net6.0\ref\OrderBot.tests.dll
+C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot.tests\bin\Debug\net6.0\CoverletSourceRootsMapping_OrderBot.tests
