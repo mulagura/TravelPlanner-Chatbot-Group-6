@@ -1,5 +1,5 @@
 # 
-RazorPagesOrderBot 
+Travel Planner Chatbot 
 with xunit tests
 
 To run:

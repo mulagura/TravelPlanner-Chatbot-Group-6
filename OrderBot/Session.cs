@@ -38,7 +38,7 @@ namespace OrderBot
                 //    break;
                 case State.FROM_LOCATION:
                     this.oOrder.ToLocation = sInMessage;
-                    aMessages.Add("From where your going to start the travel?");
+                    aMessages.Add("From where you are going to start the travel?");
                     this.nCur = State.TRAVEL_DATE;
                     break;
                 case State.TRAVEL_DATE:
@@ -48,7 +48,7 @@ namespace OrderBot
                     break;
                 case State.EVENTS:
                     this.oOrder.TravelDate = sInMessage;
-                    aMessages.Add("Which event/place you like to go on" + this.oOrder.TravelDate + " ?");
+                    aMessages.Add("Which event/place would you like to go on" + this.oOrder.TravelDate + " ?");
                     aMessages.Add("select options eg.1/2/3 (1. Plaza Get together, 2. Ontario Night club, 3. kitchner Star night)");
                     
                    
@@ -62,16 +62,16 @@ namespace OrderBot
                     break;
                 case State.ACCOMODATION:
                     this.oOrder.Availibility = sInMessage;
-                    aMessages.Add("Are you need a Accomodation? (Y/N)");
+                    aMessages.Add("Do you need an Accomodation? (Y/N)");
                    
                     this.nCur = State.FINAL_MESSAGE;
                     break;
                 case State.FINAL_MESSAGE:
                     this.oOrder.Accomodation = sInMessage;
-                    aMessages.Add("Thanks your for your time, Here are some details for you.");
-                    aMessages.Add("For Plaza Get together event Adult pass is 200$ and kids pass is 50$, you have to pay 550$ on the event gate.");
-                    aMessages.Add("If you what to confirm the bookig please enter your e-mail address.");
-                    aMessages.Add("We'll sent you the booking conformation mail.");
+                    aMessages.Add("Thanks for your time, Here are some details for you.");
+                    aMessages.Add("For Plaza Get together event, Adult pass is 200$ and kids pass is 50$, you have to pay 550$ at the event gate.");
+                    aMessages.Add("If you what to confirm the bookig, please enter your e-mail address.");
+                    aMessages.Add("Thank You !! We'll send the booking conformation mail.");
                     
                     
                     this.nCur = State.EMAIL;
