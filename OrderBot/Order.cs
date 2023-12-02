@@ -4,65 +4,56 @@ namespace OrderBot
 {
     public class Order : ISQLModel
     {
-        private string _to_location = String.Empty;
-        private string _from_location = String.Empty;
-        private string _travel_date = String.Empty;
-        private string _event = String.Empty;
-        private string _availibility = String.Empty;
-        private string _accomodation = String.Empty;
-        private string _email = String.Empty;
+        private string to_location = String.Empty;
+        private string from_location = String.Empty;
+        private string travel_date = String.Empty;
+        private string nevent = String.Empty;
+        private string availibility = String.Empty;
+        private string accomodation = String.Empty;
+        private string email = String.Empty;
 
         public string ToLocation
         {
-            get => _to_location;
-            set => _to_location = value;
+            get => to_location;
+            set => to_location = value;
         }
 
         public string FromLocation
         {
-            get => _from_location;
-            set => _from_location = value;
+            get => from_location;
+            set => from_location = value;
         }
 
         public string TravelDate
         {
-            get => _travel_date;
-            set => _travel_date = value;
+            get => travel_date;
+            set => travel_date = value;
         }
 
         public string Event
         {
-            get => _event;
-            set => _event = value;
+            get => nevent;
+            set => nevent = value;
         }
 
         public string Availibility
         {
-            get => _availibility;
-            set => _availibility = value;
+            get => availibility;
+            set => availibility = value;
         }
 
         public string Accomodation
         {
-            get => _accomodation;
-            set => _accomodation = value;
+            get => accomodation;
+            set => accomodation = value;
         }
 
         public string Email
         {
-            get => _email;
-            set => _email = value;
+            get => email;
+            set => email = value;
         }
 
-        //public string Phone{
-        //    get => _phone;
-        //    set => _phone = value;
-        //}
-
-        //public string Size{
-        //    get => _size;
-        //    set => _size = value;
-        //}
 
         public void Save(){
            using (var connection = new SqliteConnection(DB.GetConnectionString()))

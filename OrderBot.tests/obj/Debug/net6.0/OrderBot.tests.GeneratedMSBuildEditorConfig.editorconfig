@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OrderBot.tests
-build_property.ProjectDir = C:\Conestoga-SQATE\Level 2\Quality_apps-Kumar\Project\TravelPlanner-Chatbot-Group-6\OrderBot.tests\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = /Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBot.tests/

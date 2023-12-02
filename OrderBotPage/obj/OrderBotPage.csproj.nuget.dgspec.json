@@ -1,105 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj": {}
+    "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBotPage/OrderBotPage.csproj": {}
   },
   "projects": {
-    "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj": {
+    "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBot/OrderBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj",
-        "projectName": "OrderBotPage",
-        "projectPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\OrderBotPage.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBotPage\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj": {
-                "projectPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Twilio": {
-              "target": "Package",
-              "version": "[5.9.8, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj",
+        "projectUniqueName": "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBot/OrderBot.csproj",
         "projectName": "OrderBot",
-        "projectPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\OrderBot.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Conestoga-SQATE\\Level 2\\Quality_apps-Kumar\\Project\\TravelPlanner-Chatbot-Group-6\\OrderBot\\obj\\",
+        "projectPath": "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBot/OrderBot.csproj",
+        "packagesPath": "/Users/charlesraj/.nuget/packages/",
+        "outputPath": "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBot/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/charlesraj/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -147,7 +68,75 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBotPage/OrderBotPage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBotPage/OrderBotPage.csproj",
+        "projectName": "OrderBotPage",
+        "projectPath": "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBotPage/OrderBotPage.csproj",
+        "packagesPath": "/Users/charlesraj/.nuget/packages/",
+        "outputPath": "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBotPage/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/charlesraj/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBot/OrderBot.csproj": {
+                "projectPath": "/Users/charlesraj/Files/Freelance/College Project/charles raj/TravelPlanner-Chatbot-Group-6/OrderBot/OrderBot.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.9.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
         }
       }
     }
