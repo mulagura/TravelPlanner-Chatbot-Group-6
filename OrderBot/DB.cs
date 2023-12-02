@@ -1,5 +1,6 @@
 using System.IO;
 using System;
+using Microsoft.Data.Sqlite;
 
 namespace OrderBot
 {
@@ -22,6 +23,28 @@ namespace OrderBot
                     sReturn =  sPrefix + sResult + sFName;
                     break;
                 }
+
+
+                using (var connection = new SqliteConnection(sReturn))
+                {
+                    connection.Open();
+
+                    var commandCreateTable = connection.CreateCommand();
+                    commandCreateTable.CommandText =
+                        @"
+                        CREATE TABLE IF NOT EXISTS orders (
+                            to_location TEXT,
+                            from_location TEXT,
+                            travel_date TEXT,
+                            nevent TEXT,
+                            availibility TEXT,
+                            accomodation TEXT,
+                            email TEXT
+                        );
+                        ";
+                    commandCreateTable.ExecuteNonQuery();
+                }
+
             }
             return sReturn;
         }

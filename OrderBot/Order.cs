@@ -1,3 +1,4 @@
+using System.Drawing;
 using Microsoft.Data.Sqlite;
 
 namespace OrderBot
@@ -64,21 +65,38 @@ namespace OrderBot
                 commandUpdate.CommandText =
                 @"
         UPDATE orders
-        SET size = $size
-        WHERE phone = $phone
+        SET to_location = $to_location,
+from_location = $from_location,
+travel_date = $travel_date,
+nevent = $nevent,
+availibility = $availibility,
+accomodation = $accomodation,
+email = $email
+        WHERE to_location = $to_location
     ";
-                //commandUpdate.Parameters.AddWithValue("$size", Size);
-                //commandUpdate.Parameters.AddWithValue("$phone", Phone);
+                commandUpdate.Parameters.AddWithValue("$to_location", ToLocation);
+                commandUpdate.Parameters.AddWithValue("$from_location", FromLocation);
+                commandUpdate.Parameters.AddWithValue("$travel_date", TravelDate);
+                commandUpdate.Parameters.AddWithValue("$nevent", Event);
+                commandUpdate.Parameters.AddWithValue("$availibility", Availibility);
+                commandUpdate.Parameters.AddWithValue("$accomodation", Accomodation);
+                commandUpdate.Parameters.AddWithValue("$email", Email);
+
                 int nRows = commandUpdate.ExecuteNonQuery();
                 if(nRows == 0){
                     var commandInsert = connection.CreateCommand();
                     commandInsert.CommandText =
                     @"
-            INSERT INTO orders(size, phone)
-            VALUES($size, $phone)
+            INSERT INTO orders(to_location, from_location,travel_date,nevent,availibility,accomodation,email)
+            VALUES($to_location, $from_location,$travel_date,$nevent,$availibility,$accomodation,$email)
         ";
-                    //commandInsert.Parameters.AddWithValue("$size", Size);
-                    //commandInsert.Parameters.AddWithValue("$phone", Phone);
+                    commandInsert.Parameters.AddWithValue("$to_location", ToLocation);
+                    commandInsert.Parameters.AddWithValue("$from_location", FromLocation);
+                    commandInsert.Parameters.AddWithValue("$travel_date", TravelDate);
+                    commandInsert.Parameters.AddWithValue("$nevent", Event);
+                    commandInsert.Parameters.AddWithValue("$availibility", Availibility);
+                    commandInsert.Parameters.AddWithValue("$accomodation", Accomodation);
+                    commandInsert.Parameters.AddWithValue("$email", Email);
                     int nRowsInserted = commandInsert.ExecuteNonQuery();
 
                 }
