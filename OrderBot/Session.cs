@@ -59,21 +59,20 @@ namespace OrderBot
                 this.nCur = State.AVAILIBILITY;
                 aMessages.Add("Please enter the value in proper format.");
             }
+            if (!(sInMessage.ToLower().Trim().Equals("y") || sInMessage.ToLower().Trim().Equals("n")) && this.nCur == State.FINAL_MESSAGE)
+            {
+                this.nCur = State.ACCOMODATION;
+                aMessages.Add("Enter Valid Input.");
+            }
 
 
             switch (this.nCur)
             {
                 case State.WELCOMING:
                     aMessages.Add("Welcome to Travel Planner Chatbot");
-                    aMessages.Add("Which location would you like to go (Kitchener/Waterloo)?");
-                    
+                    aMessages.Add("Which location would you like to go (Kitchener/Waterloo)?");   
                     this.nCur = State.FROM_LOCATION;
                     break;
-                //case State.TO_LOCATION:
-                //    aMessages.Add("Which location would you like to go (Kitchener/Waterloo)?");
-                //    this.oOrder.ToLocation = sInMessage;
-                //    this.nCur = State.FROM_LOCATION;
-                //    break;
                 case State.FROM_LOCATION:
                     this.oOrder.ToLocation = sInMessage;
                     aMessages.Add("From where you are going to start the travel?");
@@ -101,7 +100,7 @@ namespace OrderBot
                     this.nCur = State.ACCOMODATION;
                     break;
                 case State.ACCOMODATION:
-                    //this.oOrder.Save();
+                    this.oOrder.Save();
                     this.oOrder.Availibility = sInMessage;
                     aMessages.Add("Do you need an Accomodation? (Y/N)");
                    
@@ -118,11 +117,11 @@ namespace OrderBot
                     this.nCur = State.EMAIL;
                     break;
                 case State.EMAIL:
-                    //this.oOrder.Save();
+                   
                     aMessages.Add("Booking Confirm.");
                     this.oOrder.Email = sInMessage;
-
-                    //this.nCur = State.FINAL_MESSAGE;
+                    this.oOrder.Save();
+                   
                     break;
 
             }

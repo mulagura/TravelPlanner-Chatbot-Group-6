@@ -24,14 +24,14 @@ namespace OrderBot
                     break;
                 }
 
+            }
+            using (var connection = new SqliteConnection(sReturn))
+            {
+                connection.Open();
 
-                using (var connection = new SqliteConnection(sReturn))
-                {
-                    connection.Open();
-
-                    var commandCreateTable = connection.CreateCommand();
-                    commandCreateTable.CommandText =
-                        @"
+                var commandCreateTable = connection.CreateCommand();
+                commandCreateTable.CommandText =
+                    @"
                         CREATE TABLE IF NOT EXISTS orders (
                             to_location TEXT,
                             from_location TEXT,
@@ -42,9 +42,7 @@ namespace OrderBot
                             email TEXT
                         );
                         ";
-                    commandCreateTable.ExecuteNonQuery();
-                }
-
+                commandCreateTable.ExecuteNonQuery();
             }
             return sReturn;
         }
