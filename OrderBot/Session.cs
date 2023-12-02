@@ -94,7 +94,7 @@ namespace OrderBot
                     break;
                 case State.AVAILIBILITY:
                     this.oOrder.Event = sInMessage;
-                    aMessages.Add("For Plaza Get together Passes are available, " +
+                    aMessages.Add("For "+ this.itemHash[this.oOrder.Event.Trim()] +" Passes are available, " +
                         "How many adults and kids you want to book? (A:2,K:3)");
                     
                     this.nCur = State.ACCOMODATION;
